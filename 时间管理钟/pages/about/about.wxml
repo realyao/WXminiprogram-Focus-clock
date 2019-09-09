@@ -1,0 +1,53 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">时间管理钟</view>
+        <view class="page__desc">使用简介</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-article">
+
+            <view class="weui-article__section">
+                <view class="weui-article__h2">本小程序基于番茄工作法</view>
+                <view class="weui-article__section">
+                   
+                    <view class="weui-article__p">
+                        番茄工作法是简单易行的时间管理方法，是由弗朗西斯科·西里洛于1992年创立的一种相对于GTD更微观的时间管理方法。
+                    </view>
+                    <view class="weui-article__p">
+                    选择一个待完成的任务，将番茄时间设为30分钟，专注工作不做任何与该任务无关的事，直到番茄时钟结束，然后选择休息（5分钟），每4个番茄时段可以多休息一会儿。
+番茄工作法极大地提高了工作的效率，还会有意想不到的成就感。
+                    </view>
+                     <view class="weui-article__p">
+番茄工作法极大地提高了工作的效率，还会有意想不到的成就感。(摘自百度百科)
+                    </view>
+
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../../image/about.jpg" mode="aspectFit" style="height: 180px" />
+                    </view>
+              
+                </view>
+                 <view class="weui-article__h2">使用</view>
+                <view class="weui-article__section">
+                    <view class="page__desc">*建议升级微信至最新版本</view>
+                    <view class="weui-article__p">
+                    1.开始界面：交替使用工作、休息，可自定义工作名
+                    </view>
+                    <view class="weui-article__p">
+                    2.记录界面：记录每一段使用的起止时间
+                    </view>
+                     <view class="weui-article__p">
+                    3.设置界面：可按需调整工作、休息时长，振动
+                    </view>
+
+                </view>
+                <view class="weui-article__h2">问题反馈</view>
+                <view class="weui-article__p">
+                    点击右上角 ●●●>关于> 可以分享
+                    </view>
+                <view class="weui-article__p">
+                    问题反馈、功能建议可在小程序关联的公众号(Terrific Yu)后台留言。
+                    </view>
+            </view>
+        </view>
+    </view>
+</view>
