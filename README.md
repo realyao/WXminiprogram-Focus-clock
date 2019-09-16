@@ -14,7 +14,7 @@
 
 * 2.记录界面：记录每一段使用的起止时间
 
-* 3.设置界面：可按需调整工作、休息时长，振动
+* 3.设置界面：可按需调整工作，休息时长，振动，音乐，关于，分享。
 
 <div align=center><img width="400" height="700" src="https://github.com/realyao/WXminiprogram-Time-Management/blob/master/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E9%92%9F/image/setpic.jpg"/></div>
 
