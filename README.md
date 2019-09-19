@@ -9,14 +9,16 @@
 
 * 1.开始界面：交替使用工作、休息，可自定义工作名
 
-<div align=center><img width="400" height="700" src="https://github.com/realyao/WXminiprogram-Time-Management/blob/master/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E9%92%9F/image/about.jpg"/></div>
+<div align=center><img width="400" height="700" src="https://github.com/realyao/WXminiprogram-Focus-clock/blob/master/时间管理钟/image/pre1.jpg"/></div>
 
 
 * 2.记录界面：记录每一段使用的起止时间
 
+<div align=center><img width="400" height="700" src="https://github.com/realyao/WXminiprogram-Focus-clock/blob/master/时间管理钟/image/pre2.jpg"/></div>
+
 * 3.设置界面：可按需调整工作，休息时长，振动，音乐，关于，分享。
 
-<div align=center><img width="400" height="700" src="https://github.com/realyao/WXminiprogram-Time-Management/blob/master/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E9%92%9F/image/setpic.jpg"/></div>
+<div align=center><img width="400" height="700" src="https://github.com/realyao/WXminiprogram-Focus-clock/blob/master/时间管理钟/image/pre3.jpg"/></div>
 
 ## UI
 ### 引入weui组件模块，风格统一
