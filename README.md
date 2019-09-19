@@ -3,7 +3,7 @@
 
 ## 微信扫码预览
 
-<div align=center><img width="200" height="200" src="https://github.com/realyao/WXminiprogram-Time-Management/blob/master/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E9%92%9F/image/timer.jpg"/></div>
+<div align=center><img width="200" height="200" src="https://github.com/realyao/WXminiprogram-Focus-clock/blob/master/时间管理钟/image/appid.jpg"/></div>
 
 ## 界面
 
