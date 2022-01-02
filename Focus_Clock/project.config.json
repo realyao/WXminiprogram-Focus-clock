@@ -13,8 +13,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.1",
-	"appid": "wxc1ae26df6e4263b1",
-	"projectname": "timer",
+	"appid": "",
+	"projectname": "",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
