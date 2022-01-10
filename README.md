@@ -19,4 +19,5 @@
 * 本小程序基于[WEUI](https://github.com/Tencent/weui)组件模块，拟微信风格UI
 * 微信基础库：>=`2.15.0`
 * 部署：clone至本地编译运行
+* GPL licence
 * 欢迎 pull your requests
