@@ -1,13 +1,13 @@
 const util = require('../../utils/util.js')
+const templateId = 'OFEAr11jqhgpU_imwX6A7xTy2ckcxRMNa3kE8-d7CQI'
 const defaultLogName = {
   work: '工作',
   rest: '休息'
 }
 const actionName = {
-  stop: '停止',
+  stop: '结束',
   start: '开始'
 }
-
 const initDeg = {
   left: 45,
   right: -45,
@@ -22,7 +22,11 @@ Page({
     completed: false,
     isRuning: false,
     leftDeg: initDeg.left,
-    rightDeg: initDeg.right
+    rightDeg: initDeg.right,
+    vibison: ''
+      },
+
+  onLoad: function (options) {
   },
 
   onShow: function() {
@@ -38,43 +42,40 @@ Page({
 
   startTimer: function(e) {
     let startTime = Date.now()
+    let startTimeShow = this.getTime() //（安卓与iOS时间显示不一致）转换时间为统一格式显示。
     let isRuning = this.data.isRuning
     let timerType = e.target.dataset.type
     let showTime = this.data[timerType + 'Time']
     let keepTime = showTime * 60 * 1000
     let logName = this.logName || defaultLogName[timerType]
-
-    if (!isRuning) {   //主循环
+    this.vibshort()
+    if (!isRuning) {   
       this.timer = setInterval((function() {
         this.updateTimer()
-        this.startNameAnimation()
-        
+        this.startNameAnimation()       
       }).bind(this), 1000)
-
     } else {
       this.stopTimer()
-
     }
-    
-
-
+   
     this.setData({
       isRuning: !isRuning,
       completed: false,
       timerType: timerType,
       remainTimeText: showTime + ':00',
       taskName: logName
+    
     })
 
     this.data.log = {
       name: logName,
       startTime: Date.now(),
+      startTimeShow: startTimeShow,
       keepTime: keepTime,
       endTime: keepTime + startTime,
       action: actionName[isRuning ? 'stop' : 'start'],
       type: timerType
     }
-
     this.saveLog(this.data.log)
   },
 
@@ -95,11 +96,32 @@ Page({
       leftDeg: initDeg.left,
       rightDeg: initDeg.right
     })
-    wx.vibrateLong()//长振动
-
-    // clear timer
-    this.timer && clearInterval(this.timer)
+  this.viblong()    
+  this.timer && clearInterval(this.timer)
+  //  震动 ；clear timer
   },
+
+viblong: function(){
+  let vibison = wx.getStorageSync('vibison')//页面传参，以缓存形式
+  this.setData({
+    vibison: vibison
+  })
+if(vibison){     //振动功能的开闭
+  wx.vibrateLong()
+}else{
+}
+},
+
+vibshort: function(){
+  let vibison = wx.getStorageSync('vibison')//页面传参，以缓存形式
+  this.setData({
+    vibison: vibison
+  })
+if(vibison){     //振动功能的开闭
+  wx.vibrateShort()
+}else{
+}
+},
 
   updateTimer: function() {
     let log = this.data.log
@@ -148,5 +170,48 @@ Page({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(log)
     wx.setStorageSync('logs', logs)
-  }
+  },
+  onShareAppMessage: function (res) {
+
+    if (res.from ==='button') {
+      // 来自页面内转发按钮
+      console.log(res.target)
+      return {
+        title:'管理时间，保持专注！让自律成为习惯！',
+         path: '/pages/index/index',
+        imageUrl:'/image/share.jpg' //不设置则默认为当前页面的截图
+      }
+    }
+  },
+    onShareTimeline: function (res){
+        return{  
+          title: '管理时间，保持专注，让自律成为习惯！',
+          query: {   
+            // key: 'value' //要携带的参数 
+          },  
+          imageUrl: '/image/about.png'   
+        }    
+    
+      },
+
+
+    getTime(){
+      let date1=new Date();
+      let year=this.appendZero(date1.getFullYear());
+      let month=this.appendZero(date1.getMonth()+1)
+      let day=this.appendZero(date1.getDate());
+      let hours=this.appendZero(date1.getHours());
+      let minutes=this.appendZero(date1.getMinutes());
+      let seconds=this.appendZero(date1.getSeconds());
+      return year+"年 "+month+"月"+day+'日 '+"\xa0\xa0\xa0"+hours+":"+minutes+":"+seconds
+    },
+    //过滤补0
+    appendZero(obj) {
+      if (obj < 10) {
+        return "0" + obj;
+      } else {
+        return obj;
+      }
+    }
+
 })

@@ -1,57 +1,35 @@
 <view class="page">
-  <view class="weui-cells__title">时长设置（分钟）</view>
+	<view class="weui-cells__title">时长设置（分钟）</view>
 	<view class="section panel">
-	  <text class="section_title">工作</text>
-	  <view class="section_body">
-	    <slider 
-	    	bindchange="changeWorkTime" 
-	    	show-value="true" 
-	    	min="1"
-	    	max="60"
-	    	value="{{workTime}}"
-	    	left-icon="cancel" 
-	    	right-icon="success_no_circle"/>
-	  </view>
+		<text class="section_title">工作</text>
+		<view class="section_body">
+			<slider bindchange="changeWorkTime" show-value="true" min="1" max="60" value="{{workTime}}" left-icon="cancel" right-icon="success_no_circle" />
+		</view>
+	</view>
+	<view class="section panel">
+		<text class="section_title">休息</text>
+		<view class="section_body">
+			<slider bindchange="changeRestTime" show-value="true" min="1" max="60" value="{{restTime}}" left-icon="cancel" right-icon="success_no_circle" />
+		</view>
+	</view>
+	<view class="section panel">
+		<text class="section_title">振动提醒</text>
+		<switch class="section_switch" type="switch" size="mini" checked bindchange="switch1Change" />
 	</view>
 
-	<view class="section panel">
-	  <text class="section_title">休息</text>
-	  <view class="section_body">
-	    <slider 
-	    	bindchange="changeRestTime" 
-	    	show-value="true" 
-	    	min="1"
-	    	max="60"
-	    	value="{{restTime}}"
-	    	left-icon="cancel" 
-	    	right-icon="success_no_circle"/>
-	  </view>
+	<view class="weui-cells__title">关于</view>
+	<view class="weui-cells weui-cells_after-title">
+		<navigator url="../about/about" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+			<view class="weui-cell__bd">简介</view>
+			<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+		</navigator>
 	</view>
-
-
-
-	<view class="section panel">
-   <text class="section_title">振动提醒</text><switch class="section_switch" type="switch" size="mini" checked bindchange="switch1Change"/>
+	<view class="weui-cells__title"> </view>
+	<view class="weui-footer">
+		<view class="weui-footer__links">
+			<navigator url="../version/version" class="weui-footer__link">V 1.1.1</navigator>
+		</view>
+		<view class="weui-footer__text">Copyright © 2019-2022 REALY</view>
 	</view>
-
-        <view class="weui-cells__title">关于</view>
-        <view class="weui-cells weui-cells_after-title">
-            <navigator url="../version/version" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-                <view class="weui-cell__bd">日志</view>
-                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-            </navigator>
-        </view>    
-
-   <view class="weui-cells__title">  </view>
-
-
-        <view class="weui-footer">
-            <view class="weui-footer__links">
-                <navigator url="../about/about" class="weui-footer__link">使用简介</navigator>
-            </view>
-            <view class="weui-footer__text">Copyright © 2008-2019 Terrific Yu</view>
-        </view>
-
-
-
+	<ad unit-id="adunit-45472909deac0995"></ad>
 </view>

@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/setting/setting",
     "pages/about/about",
-    "pages/version/version"
+    "pages/version/version",
+    "pages/todos/todos"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -23,6 +24,12 @@
         "iconPath": "image/yu.png",
         "selectedIconPath": "image/yu2.png",
         "text": "开始"
+      },
+      {
+        "pagePath": "pages/todos/todos",
+        "iconPath": "image/todo2.png",
+        "selectedIconPath": "image/todo.png",
+        "text": "待办"
       },
       {
         "pagePath": "pages/logs/logs",

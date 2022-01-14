@@ -23,19 +23,21 @@
 		 	placeholder-style="text-align:center" 
 		 	class="timer_inputname" 
 		 	bindinput="changeLogName"
-		 	placeholder="修改任务名"/>
+		 	placeholder="自定义任务名"/>
 	</view>
 	
 	<view class="timer_footer">
 	  <view 
 	  	bindtap="startTimer" 
 	  	data-type="work" 
-	  	class="timer_ctrl {{isRuning && timerType == 'rest' ? 'hide' : ''}}" >{{isRuning ? '退出': '工作'}}</view>
+	  	class="timer_ctrl {{isRuning && timerType == 'rest' ? 'hide' : ''}}">
+			{{isRuning ? '退出': '工作'}}
+			</view>
 
 	  <view 
 	  	bindtap="startTimer" 
 	  	data-type="rest" 
-	  	class="timer_ctrl {{isRuning && timerType == 'work' ? 'hide' : ''}}" >{{isRuning ? '退出': '休息'}}</view>
+	  	class="timer_ctrl_2 {{isRuning && timerType == 'work' ? 'hide' : ''}}" >
+			{{isRuning ? '退出': '休息 '}} </view>
 	</view>
 </view>
-
