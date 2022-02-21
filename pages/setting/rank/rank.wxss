@@ -1,0 +1,32 @@
+/* pages/setting/rank/rank.wxss */
+.user-head{
+    text-align: center;
+}
+.userTop{
+    width: 100%;
+    position: absolute;
+    top: -180px;
+    filter: blur(5px);
+}
+.userAva{
+height: 100rpx;
+width: 100rpx;
+margin: 15rpx 0 0 110rpx;
+overflow: hidden;
+border-radius: 8px;
+}
+
+.rank1{
+    width: 100%;
+    background-color: white;
+    height: 130rpx;
+    z-index: 10;
+    position: absolute;
+    top: 400rpx;
+}
+.shareButton{
+    position: relative;font-size: 32rpx;color: #576b95;background-color:#ededed;
+}
+.shareButton::after {
+    border: 0; 
+  }

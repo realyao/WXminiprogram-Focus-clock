@@ -1,0 +1,41 @@
+
+
+ <view class="page">
+    <view class="page__bd">
+        <view class="weui-article">
+
+            <view class="weui-article__section">
+                            <view class="weui-article__p">
+                        <image class="weui-article__img" src="../../image/maozi.png" mode="aspectFit" style="height: 180px" />
+                                  </view>
+                                       <view class="weui-article__p">
+一键给头像加圣诞帽、戴口罩、小国旗。更多头像挂件点击立即使用！
+                   </view>
+                
+
+
+        <view class="weui-cells weui-cells_after-title"> 
+<navigator 
+ target="miniProgram" 
+ open-type="navigate" 
+ app-id="wxe333b834a643f99d" 
+ extra-data="{{extraData}}"
+ version="develop" 
+ bindsuccess="toMiniProgramSuccess"
+class="weui-cell weui-cell_example weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                    <image src="../../image/iconhat.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">头像工具</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>       
+
+ </view>
+ 
+
+ </view>
+        </view>
+
+    </view>
+    <ad unit-id="adunit-8dfcef1086440f99" ad-type="video" ad-theme="white"></ad>
+</view>

@@ -1,0 +1,70 @@
+/* pages/about/about.wxss */
+.center_h {
+   font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 3em;
+  line-height: 1.4;
+  text-align: center;
+  }
+  .center_img{
+    margin: 0 0 .8em;
+    text-align: center;
+  }
+  .about_footer {
+    color: rgba(0,0,0,.3);
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 15px;
+    
+    }
+    
+  
+.btnabout {
+  width: 400rpx;
+  font-size: 30rpx;
+  margin-bottom: 40rpx;
+  background-color: #3BAC6A;
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10rpx 0;
+}
+.btnabout::after {
+  border-radius: 98rpx;
+  border: 0; 
+}
+.weui-footer__link::after {
+  border: 0; 
+  background-color: rgba(22, 36, 236, 0);
+}
+.title_1{
+  font-size:22px;font-weight:700;margin-bottom:.9em;line-height:1.4;text-align: center
+}
+.about_img{
+  display:flex;                   
+  justify-content: center;
+  border-radius: 50%;
+
+  display: block;
+}
+  
+
+  .footer_button{
+    display: inline-block;
+  vertical-align: top;
+  margin: 0 8px;
+  position: relative;
+  font-size: 14px;
+  color: #576b95;
+  background-color:#ededed;
+  }
+  .footer_button::after {
+  
+    border: 0; 
+    /* background-color: rgba(22, 36, 236, 0.041); */
+   
+  }

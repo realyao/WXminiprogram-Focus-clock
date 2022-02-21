@@ -1,0 +1,20 @@
+/* pages/version/version.wxss */
+
+.page {
+  background-color: #ffffff;
+  font-size: 16px;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  width: 96%;
+  margin: 0 2%;
+}
+.center_h {
+   font-size: 22px;
+   font-weight: 700;
+   margin-bottom: 1em;
+   line-height: 1.4;
+   text-align: center;
+   }
+   .center_img{
+     margin: 0 0 .8em;
+     text-align: center;
+   }

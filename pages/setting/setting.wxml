@@ -1,0 +1,136 @@
+<view class="page">
+  <!-- <view class="weui-cells__title">时长设置（分钟）</view>
+	<view class="section panel">
+	  <text class="section_title">工作</text>
+	  <view class="section_body">
+	    <slider 
+	    	bindchange="changeWorkTime" 
+	    	show-value="true" 
+	    	min="1"
+	    	max="60"
+	    	value="{{workTime}}"
+	    	left-icon="cancel" 
+	    	right-icon="success_no_circle"/>
+	  </view>
+	  <text class="section_title">休息</text>
+	  <view class="section_body">
+	    <slider 
+	    	bindchange="changeRestTime" 
+	    	show-value="true" 
+	    	min="1"
+	    	max="30"
+	    	value="{{restTime}}"
+	    	left-icon="cancel" 
+	    	right-icon="success_no_circle"/>
+	  </view>
+	</view> -->
+ 
+<view class="user-head">
+    <view class="user-Ava"><open-data type="userAvatarUrl" style="border-radius: 10px !important;"></open-data></view>
+    <view class="user-nametext"><open-data type="userNickName"></open-data></view>
+    <text class="user-text">今日专注力超越全国36%用户</text>
+    <image src="../../image/phone.png" bindtap="openIOS2" style="height: 15px;width: 20px;position: absolute;right: 50rpx;top: 110rpx;"></image>
+    <!-- <block wx:if="{{!hasUserInfo}}">
+      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile" style="position: absolute;top:40rpx;right: 40rpx;height: 40rpx;">登录</button>
+      <button wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo" style="position: absolute;top:40rpx;right: 40rpx;height: 40rpx;">登录</button>
+    </block>
+    调用授权按钮 -->
+</view>
+
+
+<view class="weui-cells__title"></view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_select">
+                <!-- <view class="weui-cell__hd weui-cell__hd_in-select-after"> -->
+                    <!-- <view class="weui-label" style="margin-left: 100rpx;">白噪声</view> -->
+                    <view class="weui-cell__hd">
+                    <image src="../../image/fores.png" style="margin: 0 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">白噪声</view>
+
+                <view class="weui-cell__bd" style="margin-left: 150rpx;">
+                    <picker bindchange="changemusic"  value="{{musicIndex}}" range="{{music}}" >
+                        <view class="weui-select weui-select_in-select-after" style="padding-left: 100rpx;">{{music[musicIndex]}}</view>
+                    </picker>
+                </view>
+            </view>
+        </view>
+
+
+
+
+ <view class="weui-cells__title"></view>
+        <view class="weui-cells weui-cells_after-title">
+            <navigator url="../setting/rank/rank" class="weui-cell weui-cell_example weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                    <image src="../../image/rank.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">排行榜</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>      
+
+            <navigator    target="miniProgram"
+    open-type="navigate"
+    app-id="wx8abaf00ee8c3202e"
+    extra-data="{{ extraData }}"
+    version="release" class="weui-cell weui-cell_example weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                    <image src="../../image/tucao.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">反馈</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>     
+
+            <navigator url="../more/more" class="weui-cell weui-cell_example weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                    <image src="../../image/more.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">发现</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>       
+
+            <navigator url="../about/about" class="weui-cell weui-cell_example weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                    <image src="../../image/instruction.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">关于</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+
+        </view>
+
+        <view class="weui-cells__title"></view> 
+            <view class="weui-cells weui-cells_after-title">
+            <navigator url="../setting/setmore/setmore" class="weui-cell weui-cell_example weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                    <image src="../../image/set-up.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">设置</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>    
+</view>
+
+<view class="before_footer"> </view>
+        <!-- <view class="weui-footer  weui-footer_fixed-bottom"> -->
+
+         <view class="weui-footer">
+          <view class="weui-footer__links">
+            <!-- <navigator url="../version/version" class="weui-footer__link">V 1.1.3</navigator> -->
+            <button open-type='share'  class="footer_button">分享好友</button>
+            </view>
+            <view class="weui-footer__text">©2019-2022 REALY</view>
+        </view>
+
+        <ad unit-id="adunit-45472909deac0995" style="margin-top: 30rpx;"></ad>
+
+</view>
+<!-- <view wx:if="{{topTips}}" class="weui-toptips weui-toptips_warn fadeIn {{tophide ? 'fadeOut' : ''}}">专注计时完成后，将会振动提醒</view> -->
+<view aria-role="dialog" aria-modal="true" class="fadeIn" wx:if="{{iosDialog2}}">
+        <view class="weui-mask"></view>
+        <view class="weui-dialog">
+            <view class="weui-dialog__bd">专注时钟桌面端开发中，敬请期待！</view>
+            <view class="weui-dialog__ft">
+                <view aria-role="button" class="weui-dialog__btn weui-dialog__btn_primary" bindtap="close">OK</view>
+            </view>
+        </view>
+    </view>

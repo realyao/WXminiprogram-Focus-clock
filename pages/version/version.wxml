@@ -1,0 +1,29 @@
+<!--pages/version/version.wxml-->
+<view class="page">
+
+     <view class="page__bd">
+          <view class="weui-article">
+               <image class="center_img" src="../../image/222.jpg" mode="aspectFit" style="height: 60px" />
+               <view class="center_h">专注时钟</view>
+               <view class="page__desc">*更新日志*</view>
+               <view class="weui-article__p">
+                    Version 1.2.2 - 2022/1
+                    加入排行榜</view>
+               <view class="weui-article__p">
+                    Version 1.2.1 - 2021/3
+                    优化了登录头像问题</view>
+               <view class="weui-article__p">
+                    Version 1.1.3 - 2020/4
+                    加入待办清单模块</view>           
+                <view class="weui-article__p">
+                    Version 1.1.2 - 2020/1
+                    加入图表分析</view>          
+               <view class="weui-article__p">
+                    Version 1.1.1 - 2019/9
+                    优化了一些已知问题</view>                                      
+               <view class="weui-article__p">
+                    Version 1.1.0 - 2019/5
+                    Alpha</view>
+          </view>
+     </view>
+</view>

@@ -1,0 +1,132 @@
+.header {
+  display: flex;
+  align-items: center;
+  border: 1rpx solid #e0e0e0;
+  border-radius: 10rpx;
+  box-shadow: 5px 5px 5px #e0e0e0;
+  margin-bottom: 30rpx;
+  padding: 20rpx;
+  width: 94%;
+  height: 90rpx;
+  background-color: #ffffff;
+text-align: center;
+margin-left: 3%;
+}
+.back_container {
+  height: 100%;
+  background-color: #ededed;
+}
+.todo_container{height: 80%;
+  background-color: #ededed;
+}
+
+.header .plus {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 10rpx;
+}
+
+.header .new-todo {
+  flex: 1;
+  font-size: 28rpx;
+  margin-left: 5%;
+  margin-right: 5%
+}
+
+
+.todos {
+  /* border: 3rpx solid #e0e0e0; */
+  border-radius: 10rpx;
+  /* box-shadow: 0 0 5rpx #e0e0e0; */
+  margin-top: 10rpx;
+  width: 94%;
+  margin-left: 3%;
+  /* background-color: #f5f5f5; */
+  }
+  
+
+.todos .item {
+  display: flex;
+  height: 120rpx;
+  align-items: center;
+  padding: 25rpx;
+  border-bottom: 1rpx solid #e0e0e0;
+  
+  background-color: #6f879f;
+  border-radius: 10rpx;
+  margin-bottom: 10rpx;
+  background-image: url("https://s3.ax1x.com/2021/03/17/6cxSER.jpg");
+  background-size: 110%;
+  background-repeat: no-repeat;
+}
+
+.todos .item:last-child {
+  border-bottom: 0;
+}
+
+.todos .item .checkbox {
+  margin-right: 20rpx;
+}
+
+.todos .item .name {
+  flex: 1;
+  font-size: 30rpx;
+  /* color: #444; */
+  color: #ffffff;
+}
+.todos .item.completed {
+  background-color:#d5d5d5;
+  background-image: none;
+}
+.todos .item.completed .name {
+  text-decoration: line-through;
+  color: #888;
+}
+/* 
+.todos .item .remove {
+  cursor: pointer;
+}
+*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10rpx 0 30rpx 0;
+  padding: 0 5rpx;
+  font-size: 30rpx;
+  color: #576b95;
+}
+
+.footer .btn {
+  text-align: center;
+  color: #c4c4c4;
+  font-size: 32rpx;
+  border-radius: 10rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  width: 90rpx;
+  height: 50rpx;
+}
+.footer .foottext {
+color: #8a8a8a;
+font-size: 30rpx;
+margin: 0 3%;
+}
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty .title {
+  font-size: 60rpx;
+  margin: 200rpx 50rpx 50rpx;
+  color: #444;
+}
+
+.empty .content {
+  color: #c4c4c4;
+  text-align: center;
+}

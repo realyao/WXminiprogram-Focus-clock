@@ -1,0 +1,41 @@
+<view class="todo_container">
+  <view class="header">
+    <!-- <image class="plus" src="../../image/plus.png"/> -->
+    <input class="new-todo" value="{{ input }}" placeholder="添加任务"  bindinput="inputChangeHandle" bindconfirm="addTodoHandle" confirm-type="done"/>
+    <image class="plus" wx:if="{{input}}" bindtap="addTodoHandle" src="../../image/yes.png"/>
+  </view>
+  <block wx:if="{{ todos.length }}">
+    <view class="footer">
+      <!-- <text class="btn" bindtap="toggleAllHandle">✔ 全选</text> -->
+      <image class="btn" bindtap="toggleAllHandle" src="../../image/allselect.png"/>
+      <text class="foottext" wx:if="{{ leftCount }}">剩 {{ leftCount }} {{ leftCount === 1 ? '个' : '个' }}任务待完成</text>
+      <image class="btn" wx:if="{{ todos.length > leftCount }}" bindtap="clearCompletedHandle" src="../../image/delete.png"/>
+      <!-- <text class="btn" wx:if="{{ todos.length > leftCount }}" bindtap="clearCompletedHandle">✘ 清除</text> -->
+    </view>
+    <view class="todos">
+      <!-- List items should get the class `completed` when marked as completed -->
+      <view class="item{{ item.completed ? ' completed' : '' }}" wx:for="{{ todos }}" wx:key="{{ index }}" bindtap="toggleTodoHandle" data-index="{{ index }}">
+        <!-- completed: success, todo: circle -->
+        <icon class="checkbox" type="{{ item.completed ? 'success' : 'circle' }}"/>
+        <text class="name">{{ item.name }}</text>
+        <icon class="remove" type="clear" size="16" catchtap="removeTodoHandle" data-index="{{ index }}"/>
+      </view>
+    </view>
+
+  </block>
+  <block wx:else>
+    <!-- <view class="empty">
+      <text class="title"> </text>
+      <text class="content">暂无待办，请添加今日任务</text>
+    </view> -->
+    	<view class="nodata">
+		<image class="nodata_img" src="../../image/nodata.png"></image>
+    <text class="nodata_text">今天的任务都完成了！</text>
+  </view>
+  <mp-icon type="field" icon="add" color="black" size="{{25}}"></mp-icon>
+<mp-icon icon="add" color="black" size="{{25}}"></mp-icon>
+  </block>
+
+</view>
+<toast hidden="{{toastHidden}}" bindchange="hideToast">已清除</toast>
+ 

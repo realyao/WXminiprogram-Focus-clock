@@ -1,0 +1,35 @@
+<block wx:if="{{logs.length}}">
+	<view class="chart_container">
+		<canvas  canvas-id="ringCanvas" class="ringchartCanvas" bindtouchstart="touchHandler"></canvas>
+		<view class="poster" bindtap="goposter"></view>
+   </view>
+
+	<scroll-view class="itemcontainer" scroll-y="true">
+	  	<view class="log_item" wx:for="{{logs}}" wx:for-index="$index" wx:for-item="log">
+	  		<text class="log_start">{{log.startTimeShow}}</text>
+	  		<text class="log_action">\t \t{{log.action}} {{log.action=='开始'? '▷':'◉'}} </text>
+	  		<text class="{{log.name=='休息'?'log_name_rest':'log_name_work'}}">{{log.name}}</text>
+	  	</view>
+	</scroll-view>
+
+	<view class="clear">
+		<!-- <button bindtap="switchModal" class="clear_btn" size="mini" >删 除</button> -->
+		<image class="deletelog"  bindtap="switchModal" src="../../image/delete.png"/>
+	</view>
+  <!-- <ad unit-id="adunit-45472909deac0995"></ad> -->
+	<modal 
+		title="清除所有记录？" 
+		confirm-text="确定" 
+		cancel-text="取消" 
+		hidden="{{modalHidden}}" 
+		bindconfirm="clearLog" 
+		bindcancel="switchModal">
+	</modal>
+</block>
+<block wx:else>
+	<view class="nodata">
+		<image class="nodata_img" src="../../image/nodata.png"></image>
+		<text class="nodata_text">暂无专注记录</text>
+	</view>
+</block>
+<toast hidden="{{toastHidden}}" bindchange="hideToast">已清空</toast>

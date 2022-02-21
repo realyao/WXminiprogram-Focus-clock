@@ -1,0 +1,41 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-article">
+            <!-- <image class="weui-article__img" src="../../image/clock.jpg" mode="aspectFit" style="height: 60px" /> -->
+            <view class="center_h">专注时钟</view>
+            <view class="weui-article__section">
+
+                <view class="center_img">
+                    <image class="weui-article__img" src="../../image/about.png" mode="aspectFit" style="height: 180px" />
+                </view>
+                <view class="weui-article__p">
+                    『专注时钟』基于番茄工作法；帮助你高效专注于工作学习，提高效率，摆脱拖延；适用于考研自习、期末备考等场景。
+                </view>
+                <view class="weui-article__p">
+                    你可以自定义任务名，如“学英语”，点击工作（默认30min，可适当调整），专注工作不做无关的事直至结束；然后休息5分钟。
+                </view>
+                <view class="weui-article__p">
+                    在【待办】中管理自己的每日任务，目标井然有序。
+                </view>
+                <view class="weui-article__h2">反馈建议</view>
+                <view class="weui-article__p">
+                    点击【我-反馈】提出您的体验或建议，感谢您的支持。该项目代码开源在Github(realyao)，如果你有更多建议，欢迎提出你的贡献。</view>
+                <view class="weui-article__h2">支持</view>
+                <view class="weui-article__p">
+                    喜欢该程序可以点击右上角 ••• 【分享给好友或朋友圈】，或者<text style="color:#3BAC6A;" bindtap="previewImage">【给作者买瓶娃哈哈】</text>😜。
+                </view>
+                <official-account></official-account>
+            </view>
+        </view>
+    </view>
+    <view class="before_footer"> </view>
+    <!-- <button class="btnabout" bindtap="previewImage">给作者买瓶娃哈哈 😜</button> -->
+    <view class="about_footer">
+        <view class="weui-footer__links">
+            <navigator url="../version/version" class="weui-footer__link" style="color: #576b95;">V 1.2.2</navigator>
+            <button open-type='share' class="footer_button">分享好友</button>
+        </view>
+        <view class="weui-footer__text">Copyright 2019-2022. WeChat@REALY</view>
+    </view>
+
+</view>

@@ -1,0 +1,62 @@
+<view class="page">
+
+    <view class="weui-cells__title">时长设置（分钟）</view>
+	<view class="section panel">
+
+	  <text class="section_title">工作</text>
+	  <view class="section_body">
+	    <slider 
+	    	bindchange="changeWorkTime" 
+	    	show-value="true" 
+	    	min="1"
+	    	max="60"
+	    	value="{{workTime}}"
+	    	left-icon="cancel" 
+	    	right-icon="success_no_circle"/>
+	  </view>
+
+	  <text class="section_title">休息</text>
+	  <view class="section_body">
+	    <slider 
+	    	bindchange="changeRestTime" 
+	    	show-value="true" 
+	    	min="1"
+	    	max="30"
+	    	value="{{restTime}}"
+	    	left-icon="cancel" 
+	    	right-icon="success_no_circle"/>
+	  </view>
+	</view>
+
+            <view class="weui-cells__title">通用</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_switch">
+                <view class="weui-cell__bd">振动</view>
+                <view class="weui-cell__ft">
+                    <switch  type='switch'
+                    checked="{{vibison}}"
+                    bindchange="changevib"/>
+                </view>
+            </view>
+
+            <view class="weui-cell weui-cell_switch">
+                <view class="weui-cell__bd">音效</view>
+                <view class="weui-cell__ft">
+                    <switch  type='switch'
+                    />
+                </view>
+            </view>
+
+			<view class="weui-cell weui-cell_switch">
+                <view class="weui-cell__bd">专注熄屏</view>
+                <view class="weui-cell__ft">
+                    <switch  type='switch'
+                   />
+                </view>
+            </view>
+        </view>
+
+
+</view>
+
+<view wx:if="{{topTips}}" class="weui-toptips weui-toptips_warn fadeIn {{tophide ? 'fadeOut' : ''}}">专注计时完成后，将会振动提醒</view>

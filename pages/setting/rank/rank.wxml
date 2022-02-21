@@ -1,0 +1,24 @@
+<view class="page">
+<view class="user-head">
+
+    <view class="userTop"><open-data type="userAvatarUrl"></open-data></view>
+    <text style="position: relative;top:10px;font-size: 30rpx;color: white;">你占领了封面</text>
+</view>
+
+<view class="rank1" >
+    <text style="position: absolute;left:30rpx;top:40rpx;font-size: 40rpx;">1</text>
+    <view class="userAva" ><open-data type="userAvatarUrl"></open-data></view>
+    <view style="position: absolute;left: 240rpx;top: 50rpx;font-size: 30rpx;"><open-data type="userNickName"></open-data></view>
+</view>
+
+<view class="weui-loadmore weui-loadmore_line weui-loadmore_dot" aria-role="option" style="margin-top: 520rpx;">
+			<!-- <view class="weui-hidden_abs">已无更多数据</view> -->
+			<text class="weui-loadmore__tips" style="background-color: #ededed;"></text>
+        </view>
+
+<view style="text-align: center;">
+    <button open-type='share'  class="shareButton" style="position: relative;font-size: 32rpx;color: #576b95;background-color:#ededed;">邀请朋友</button>
+
+</view>
+
+</view>

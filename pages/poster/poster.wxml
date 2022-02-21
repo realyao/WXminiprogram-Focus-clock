@@ -1,0 +1,6 @@
+<view class="hb-container">
+  <canvas  canvas-id="myCanvas" style="width:{{imageWidth}}px;height:{{imageHeight}}px;"></canvas>
+  <button type="primary" open-type='share'>分享好友</button>
+  <button type="primary" bindtap="savepic">保存图片</button>
+
+</view>
