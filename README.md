@@ -17,7 +17,7 @@
 </p>
 
 <h5 align=center>
-导航：[<a href="#快速开始">代码部署</a>] [<a href="#部分原型设计预览">页面原型预览</a>] [<a href="https://github.com/realyao/WXminiprogram-Focus-clock/wiki">产品分析文档</a>]
+导航：[<a href="#🚀快速开始">代码部署</a>] [<a href="#部分原型设计预览">页面原型预览</a>] [<a href="https://github.com/realyao/WXminiprogram-Focus-clock/wiki">产品分析文档</a>]
 </h4>
 
 <h4 align=center>这是微信小程序专注时钟的开源代码仓库，你可以在微信中搜索专注时钟，或微信扫码预览</h4>
@@ -34,8 +34,7 @@
 <div align=center><img width='80%' src="https://dcdn.it120.cc/2022/03/13/c6bfc2ff-701f-4bca-9444-1a659b780a0c.png"/></div>
 
 
-
-## 🔎 功能
+## 🔎功能
 * 专注计时（cf. [番茄工作法](https://baike.baidu.com/item/%E7%95%AA%E8%8C%84%E5%B7%A5%E4%BD%9C%E6%B3%95/6353502)）
 * 待办清单（ToDo List）
 * 数据记录 图表分析
@@ -48,7 +47,7 @@
 <div><img width='50%' src="https://dcdn.it120.cc/2022/03/08/36534a91-d228-419e-994c-46c967b837d0.png"/></div>
 
 
-## 🔜 ToDo
+## 🔜ToDo
 - **专注自习室（即将到来！）**
 - 语音待办（V-ToDo）
 - 接入微信推送通知
@@ -56,7 +55,7 @@
 - 夜间模式、老龄模式、大屏适配
 - ~~需要一个美术设计拯救审美~~
 
-## 🚀 快速开始
+## 🚀快速开始
 * **本微信小程序涉及基础的 JavaScript、WXML、CSS 等前端知识，以及常见的微信API和组件使用，适合新手学习入门。** 当你遇到问题时，I insist [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)。
 
 * Base [timer](https://github.com/kraaas/timer)。页面基于[WEUI](https://github.com/Tencent/weui-wxss)组件库，微信原生视觉体验，支持在`app.json`中以拓展库方式引入：
@@ -76,13 +75,13 @@
 
 
 
-## 📒 项目介绍
+## 📒项目信息
 
-* 你可以在项目 [Wiki](https://github.com/realyao/WXminiprogram-Focus-clock/wiki/%E5%85%B3%E4%BA%8E-%E4%B8%93%E6%B3%A8%E6%97%B6%E9%92%9F-%E4%B8%93%E6%B3%A8%E8%87%AA%E4%B9%A0%E5%AE%A4-%E7%9A%84%E9%9C%80%E6%B1%82%E6%80%9D%E8%80%83) 中查看我对该产品做的部分 **需求分析** 和 **原型设计**。
+* 你可以在项目 [Wiki](https://github.com/realyao/WXminiprogram-Focus-clock/wiki/%E5%85%B3%E4%BA%8E-%E4%B8%93%E6%B3%A8%E6%97%B6%E9%92%9F-%E4%B8%93%E6%B3%A8%E8%87%AA%E4%B9%A0%E5%AE%A4-%E7%9A%84%E9%9C%80%E6%B1%82%E6%80%9D%E8%80%83) 中查看我对该产品做的部分 **需求分析**、**原型设计** 和 **数据分析**。
+  
+* **如果该项目对您有帮助，欢迎点一个 `⭐star` & pull your requests**
   
 * GPL license
-  
-* **Welcome `⭐star` & pull your requests**
 
 ## 部分原型设计预览
 <div align=center><img width='50%' src="https://s4.ax1x.com/2022/01/17/7UGHNq.jpg"/>
