@@ -16,6 +16,10 @@
   <img src="https://img.shields.io/badge/license-GPL-blue">
 </p>
 
+<h5 align=center>
+导航：[<a href="#快速开始">代码部署</a>] [<a href="#部分原型设计预览">页面原型预览</a>] [<a href="https://github.com/realyao/WXminiprogram-Focus-clock/wiki">产品分析文档</a>]
+</h4>
+
 <h4 align=center>这是微信小程序专注时钟的开源代码仓库，你可以在微信中搜索专注时钟，或微信扫码预览</h4>
 
 
@@ -40,15 +44,16 @@
 * 排行榜
 * more ...
   
-#### 产品功能结构分析
+#### 产品功能脑图（V-1.2）
 <div><img width='50%' src="https://dcdn.it120.cc/2022/03/08/36534a91-d228-419e-994c-46c967b837d0.png"/></div>
 
 
 ## 🔜 ToDo
 - **专注自习室（即将到来！）**
-- 夜间模式、老龄模式、大屏适配
+- 语音待办（V-ToDo）
 - 接入微信推送通知
-- PC桌面端共享
+- PC桌面端共享（Web版）
+- 夜间模式、老龄模式、大屏适配
 - ~~需要一个美术设计拯救审美~~
 
 ## 🚀 快速开始
@@ -79,12 +84,12 @@
   
 * **Welcome `⭐star` & pull your requests**
 
-## 部分页面原型设计展示
+## 部分原型设计预览
 <div align=center><img width='50%' src="https://s4.ax1x.com/2022/01/17/7UGHNq.jpg"/>
 <img width='40%' src="https://s4.ax1x.com/2022/01/17/7UGb40.jpg"/>
 </div>
 
-#### 专注自习室
+##### 专注自习室
 <div align=center><img width='40%' src="https://dcdn.it120.cc/2022/03/13/7299f6c9-b68a-4086-8d52-12154bcedae5.jpg"/></div>
 
-> --By 墨刀 & Figma，更多原型设计图将陆续更新至此，详见[Wiki](https://github.com/realyao/WXminiprogram-Focus-clock/wiki/%E5%85%B3%E4%BA%8E-%E4%B8%93%E6%B3%A8%E6%97%B6%E9%92%9F-%E4%B8%93%E6%B3%A8%E8%87%AA%E4%B9%A0%E5%AE%A4-%E7%9A%84%E9%9C%80%E6%B1%82%E6%80%9D%E8%80%83)。
+> --By 墨刀 & Figma，更多原型设计图将陆续更新至[Wiki](https://github.com/realyao/WXminiprogram-Focus-clock/wiki/%E5%85%B3%E4%BA%8E-%E4%B8%93%E6%B3%A8%E6%97%B6%E9%92%9F-%E4%B8%93%E6%B3%A8%E8%87%AA%E4%B9%A0%E5%AE%A4-%E7%9A%84%E9%9C%80%E6%B1%82%E6%80%9D%E8%80%83)。
