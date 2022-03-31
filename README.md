@@ -89,8 +89,8 @@
 </div>
 
 ##### 专注自习室
-<div align=center><img width='30%' src="https://dcdn.it120.cc/2022/03/27/f281f359-6d5c-4a7a-9226-fcfa5c194998.png"/>
-<img width='30%' src="https://dcdn.it120.cc/2022/03/27/1ffbc7f7-28e9-4546-86e9-f86cc53c2703.png"/>
+<div align=center><img width='30%' src="https://dcdn.it120.cc/2022/03/27/66c757b8-acaa-41d1-b409-e3af12ef2e9c.png"/>
+<img width='30%' src="https://dcdn.it120.cc/2022/03/27/952eee7b-6e01-4285-b1c9-217d936b0c81.png"/>
 </div>
 
 > --By 墨刀 & Figma，更多原型设计图将陆续更新至[Wiki](https://github.com/realyao/WXminiprogram-Focus-clock/wiki/%E5%85%B3%E4%BA%8E-%E4%B8%93%E6%B3%A8%E6%97%B6%E9%92%9F-%E4%B8%93%E6%B3%A8%E8%87%AA%E4%B9%A0%E5%AE%A4-%E7%9A%84%E9%9C%80%E6%B1%82%E6%80%9D%E8%80%83)。
