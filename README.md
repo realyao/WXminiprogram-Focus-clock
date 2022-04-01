@@ -29,9 +29,9 @@
 
 <h3 align=center>【专注时钟】是一个帮助你放下手机，专注工作的小程序。</h3>
 
-<h4 align=center>从每日计划到专注计时，借助专注时钟，你可以轻松将你的一天打理得井井有条，享受高效生活。</h4>
+<h4 align=center>“从每日计划到专注计时，借助专注时钟，你可以轻松将你的一天打理得井井有条，享受高效生活。”</h4>
 
-<div align=center><img width='80%' src="https://dcdn.it120.cc/2022/03/13/c6bfc2ff-701f-4bca-9444-1a659b780a0c.png"/></div>
+<div align=center><img width='80%' src="https://dcdn.it120.cc/2022/04/01/3691a1c3-9d9e-47c6-96f7-5794bbcc3924.jpg"/></div>
 
 
 ## 🔎功能
@@ -44,11 +44,11 @@
 * more ...
   
 #### 产品功能脑图（V-1.2）
-<div><img width='50%' src="https://dcdn.it120.cc/2022/03/08/36534a91-d228-419e-994c-46c967b837d0.png"/></div>
+<div><img width='40%' src="https://dcdn.it120.cc/2022/03/08/36534a91-d228-419e-994c-46c967b837d0.png"/></div>
 
 
 ## 🔜ToDo
-- **专注自习室（即将到来！）**
+- **[专注自习室](#专注自习室)（即将到来！）**
 - 语音待办（V-ToDo）
 - 接入微信推送通知
 - PC桌面端共享（Web版）
