@@ -17,7 +17,7 @@
 </p>
 
 <h5 align=center>
-导航：[<a href="#🚀快速开始">代码部署</a>] [<a href="#部分原型设计预览">页面原型预览</a>] [<a href="https://github.com/realyao/WXminiprogram-Focus-clock/wiki">产品分析文档</a>]
+导航：[<a href="#快速开始">代码部署</a>] [<a href="#部分原型设计预览">页面原型预览</a>] [<a href="https://github.com/realyao/WXminiprogram-Focus-clock/wiki">产品分析文档</a>]
 </h4>
 
 <h4 align=center>这是微信小程序专注时钟的开源代码仓库，你可以在微信中搜索专注时钟，或微信扫码预览</h4>
@@ -27,14 +27,14 @@
 
 ##
 
-<h3 align=center>【专注时钟】是一个帮助你放下手机，专注工作的小程序。</h3>
-
-<h4 align=center>“从每日计划到专注计时，借助专注时钟，你可以轻松将你的一天打理得井井有条，享受高效生活。”</h4>
+> <h3 align=center>【专注时钟】是一个帮助你放下手机，专注工作的小程序。</h3>
+> 
+> <h4 align=center>“从每日计划到专注计时，借助专注时钟，你可以轻松将你的一天打理得井井有条，享受高效生活。”</h4>
 
 <div align=center><img width='80%' src="https://dcdn.it120.cc/2022/04/01/3691a1c3-9d9e-47c6-96f7-5794bbcc3924.jpg"/></div>
 
 
-## 🔎功能
+## 🔎Features
 * 专注计时（cf. [番茄工作法](https://baike.baidu.com/item/%E7%95%AA%E8%8C%84%E5%B7%A5%E4%BD%9C%E6%B3%95/6353502)）
 * 待办清单（ToDo List）
 * 数据记录 图表分析
@@ -43,8 +43,8 @@
 * 排行榜
 * more ...
   
-#### 产品功能脑图（V-1.2）
-<div><img width='40%' src="https://dcdn.it120.cc/2022/03/08/36534a91-d228-419e-994c-46c967b837d0.png"/></div>
+#### 产品功能脑图（V-1.3）
+<div><img width='45%' src="https://dcdn.it120.cc/2022/04/06/bc485bbe-f6ba-43d7-b562-1093bc23f1cf.png"/></div>
 
 
 ## 🔜ToDo
@@ -84,8 +84,8 @@
 * GPL license
 
 ## 部分原型设计预览
-<div align=center><img width='50%' src="https://s4.ax1x.com/2022/01/17/7UGHNq.jpg"/>
-<img width='40%' src="https://s4.ax1x.com/2022/01/17/7UGb40.jpg"/>
+<div align=center><img width='45%' src="https://s4.ax1x.com/2022/01/17/7UGHNq.jpg"/>
+<img width='36%' src="https://s4.ax1x.com/2022/01/17/7UGb40.jpg"/>
 </div>
 
 ##### 专注自习室
@@ -93,4 +93,4 @@
 <img width='30%' src="https://dcdn.it120.cc/2022/03/27/952eee7b-6e01-4285-b1c9-217d936b0c81.png"/>
 </div>
 
-> --By 墨刀 & Figma，更多原型设计图将陆续更新至[Wiki](https://github.com/realyao/WXminiprogram-Focus-clock/wiki/%E5%85%B3%E4%BA%8E-%E4%B8%93%E6%B3%A8%E6%97%B6%E9%92%9F-%E4%B8%93%E6%B3%A8%E8%87%AA%E4%B9%A0%E5%AE%A4-%E7%9A%84%E9%9C%80%E6%B1%82%E6%80%9D%E8%80%83)。
+> --By 墨刀 & Figma，更多原型设计详见 [Wiki](https://github.com/realyao/WXminiprogram-Focus-clock/wiki/%E5%85%B3%E4%BA%8E-%E4%B8%93%E6%B3%A8%E6%97%B6%E9%92%9F-%E4%B8%93%E6%B3%A8%E8%87%AA%E4%B9%A0%E5%AE%A4-%E7%9A%84%E9%9C%80%E6%B1%82%E6%80%9D%E8%80%83)。
