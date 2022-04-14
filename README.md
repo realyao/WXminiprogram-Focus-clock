@@ -1,5 +1,5 @@
 <h2 align=center>WXminiprogram-Focus-clock</h2>
-<h3 align=center>微信小程序：专注时钟（更新至v1.2.2__2022)</h3>
+<h3 align=center>微信小程序：专注时钟   （更新至 <img src="https://img.shields.io/badge/Version-v1.2.2-informational">）</h3>
 
 <!-- <div align=center>
 ![language](https://img.shields.io/badge/language-weapp-purple)
@@ -8,8 +8,9 @@
 </div> -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/language-weapp-purple">
+  <img src="https://img.shields.io/badge/language-WeApp-blueviolet">
   <img src="https://img.shields.io/badge/build-passing-brightgreen">
+  <img src="https://visitor-badge.glitch.me/badge?page_id=realyao.WXminiprogram-Focus-clock">
   <img src="https://img.shields.io/github/stars/realyao/WXminiprogram-Focus-clock">
   <img src="https://img.shields.io/github/forks/realyao/WXminiprogram-Focus-clock">
   <img src="https://img.shields.io/github/issues/realyao/WXminiprogram-Focus-clock">
