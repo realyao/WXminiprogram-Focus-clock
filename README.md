@@ -1,4 +1,4 @@
-<h2 align=center>WXminiprogram-Focus-clock</h2>
+<h2 align=center>WXminiprogram - Focus Clock</h2>
 <h3 align=center>微信小程序：专注时钟   （更新至 <img src="https://img.shields.io/badge/Version-v1.2.2-informational">）</h3>
 
 <!-- <div align=center>
@@ -18,7 +18,7 @@
 </p>
 
 <h5 align=center>
-导航：[<a href="#快速开始">代码部署</a>] [<a href="#部分原型设计预览">页面原型预览</a>] [<a href="https://github.com/realyao/WXminiprogram-Focus-clock/wiki">产品分析文档</a>] [<a href="https://realyao.github.io/FoClock/">Focus Clock 主页</a>] 
+导航：[<a href="#快速开始">代码部署</a>] [<a href="#部分原型设计预览">页面原型预览</a>] [<a href="https://github.com/realyao/WXminiprogram-Focus-clock/wiki">产品分析文档</a>] [<a href="https://realyao.github.io/foclock/">Focus Clock 主页</a>] 
 </h5>
 
 <h4 align=center>这是微信小程序专注时钟的开源代码仓库，你可以在微信中搜索专注时钟，或微信扫码预览</h4>
@@ -28,7 +28,7 @@
 
 ##
 
-> <h3 align=center>【专注时钟】是一个帮助你放下手机，专注工作的小程序。</h3>
+> <h3 align=center>【专注时钟】是一款帮助你放下手机，专注工作的小程序。</h3>
 > 
 > <h4 align=center>“从每日计划到专注计时，借助专注时钟，你可以轻松将你的一天打理得井井有条，享受高效生活。”</h4>
 
