@@ -24,13 +24,16 @@
 <h4 align=center>这是微信小程序专注时钟的开源代码仓库，你可以在微信中搜索专注时钟，或微信扫码预览</h4>
 
 
-<div align=center><img width='25%' src="https://s4.ax1x.com/2022/01/14/73a9bt.jpg"/></div>
+<!-- <div align=center><img width='25%' src="https://s4.ax1x.com/2022/01/14/73a9bt.jpg"/></div> -->
+<div align=center><img width='70%' src="https://dcdn.it120.cc/2022/05/11/3f59c7d4-f950-4151-a3f4-f91a5b20cd3a.png"/></div>
 
-##
+
 
 > <h3 align=center>『专注时钟』是你管理每日时间、提高学习工作效率、养成自律习惯的得力助手。</h3>
 > 
 > <h4 align=center>“集每日待办、专注计时、打卡、备忘、自习、白噪声等多种实用功能于一体，助你轻松将每一天打理得井井有条，享受高效生活。”</h4>
+
+##
 
 <div align=center><img width='80%' src="https://dcdn.it120.cc/2022/04/01/3691a1c3-9d9e-47c6-96f7-5794bbcc3924.jpg"/></div>
 
@@ -45,7 +48,7 @@
 * more ...
   
 #### 产品功能脑图（V-1.3）
-<div><img width='45%' src="https://dcdn.it120.cc/2022/04/06/bc485bbe-f6ba-43d7-b562-1093bc23f1cf.png"/></div>
+<div><img width='50%' src="https://dcdn.it120.cc/2022/04/06/bc485bbe-f6ba-43d7-b562-1093bc23f1cf.png"/></div>
 
 
 ## 🔜ToDo
@@ -83,7 +86,7 @@
   
 * GPL license
 
-## 部分原型设计预览
+## 📱部分原型设计预览
 <div align=center><img width='45%' src="https://s4.ax1x.com/2022/01/17/7UGHNq.jpg"/>
 <img width='36%' src="https://s4.ax1x.com/2022/01/17/7UGb40.jpg"/>
 </div>
@@ -93,4 +96,4 @@
 <img width='30%' src="https://dcdn.it120.cc/2022/03/27/952eee7b-6e01-4285-b1c9-217d936b0c81.png"/>
 </div>
 
-> --By 墨刀 & Figma。
+> --By 墨刀 & Figma
