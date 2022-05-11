@@ -18,7 +18,7 @@
 </p>
 
 <h5 align=center>
-导航：[<a href="#快速开始">代码部署</a>] [<a href="#部分原型设计预览">页面原型预览</a>] [<a href="https://github.com/realyao/WXminiprogram-Focus-clock/wiki">产品分析文档</a>] [<a href="https://realyao.github.io/foclock/">Focus Clock 主页</a>] 
+导航：[<a href="#快速开始">代码部署</a>] [<a href="https://realyao.github.io/foclock/">FocusClock 主页</a>] [<a href="#部分原型设计预览">页面原型预览</a>] [<a href="https://github.com/realyao/WXminiprogram-Focus-clock/wiki">产品分析文档</a>] 
 </h5>
 
 <h4 align=center>这是微信小程序专注时钟的开源代码仓库，你可以在微信中搜索专注时钟，或微信扫码预览</h4>
@@ -28,9 +28,9 @@
 
 ##
 
-> <h3 align=center>【专注时钟】是一款帮助你放下手机，专注工作的小程序。</h3>
+> <h3 align=center>『专注时钟』是你管理每日时间、提高学习工作效率、养成自律习惯的得力助手。</h3>
 > 
-> <h4 align=center>“从每日计划到专注计时，借助专注时钟，你可以轻松将你的一天打理得井井有条，享受高效生活。”</h4>
+> <h4 align=center>“集每日待办、专注计时、打卡、备忘、自习、白噪声等多种实用功能于一体，助你轻松将每一天打理得井井有条，享受高效生活。”</h4>
 
 <div align=center><img width='80%' src="https://dcdn.it120.cc/2022/04/01/3691a1c3-9d9e-47c6-96f7-5794bbcc3924.jpg"/></div>
 
@@ -77,10 +77,9 @@
 
 
 ## 📒项目信息
-
-* 你可以在项目 [Wiki](https://github.com/realyao/WXminiprogram-Focus-clock/wiki/%E5%85%B3%E4%BA%8E-%E4%B8%93%E6%B3%A8%E6%97%B6%E9%92%9F-%E4%B8%93%E6%B3%A8%E8%87%AA%E4%B9%A0%E5%AE%A4-%E7%9A%84%E9%9C%80%E6%B1%82%E6%80%9D%E8%80%83) 中查看我对该产品做的部分 **需求分析**、**原型设计** 和 **数据分析**。
-  
 * **如果该项目对您有帮助，欢迎点一个 `⭐star` & pull your requests**
+  
+* 你可以在项目 [Wiki](https://github.com/realyao/WXminiprogram-Focus-clock/wiki/%E5%85%B3%E4%BA%8E-%E4%B8%93%E6%B3%A8%E6%97%B6%E9%92%9F-%E4%B8%93%E6%B3%A8%E8%87%AA%E4%B9%A0%E5%AE%A4-%E7%9A%84%E9%9C%80%E6%B1%82%E6%80%9D%E8%80%83) 中查看我对该产品做的部分需求分析、原型设计和数据分析。
   
 * GPL license
 
@@ -94,4 +93,4 @@
 <img width='30%' src="https://dcdn.it120.cc/2022/03/27/952eee7b-6e01-4285-b1c9-217d936b0c81.png"/>
 </div>
 
-> --By 墨刀 & Figma，更多原型设计详见 [Wiki](https://github.com/realyao/WXminiprogram-Focus-clock/wiki/%E5%85%B3%E4%BA%8E-%E4%B8%93%E6%B3%A8%E6%97%B6%E9%92%9F-%E4%B8%93%E6%B3%A8%E8%87%AA%E4%B9%A0%E5%AE%A4-%E7%9A%84%E9%9C%80%E6%B1%82%E6%80%9D%E8%80%83)。
+> --By 墨刀 & Figma。
