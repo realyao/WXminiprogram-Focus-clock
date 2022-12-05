@@ -1,5 +1,5 @@
-<h2 align=center>WXminiprogram - Focus Clock</h2>
-<h3 align=center>微信小程序：专注时钟   （更新至 <img src="https://img.shields.io/badge/Version-v1.2.2-informational">）</h3>
+<h2 align=center>微信小程序：专注时钟  （更新至 V-1.2.2）</h2>
+<h3 align=center>WXminiprogram - Focus Clock</h3>
 
 <!-- <div align=center>
 ![language](https://img.shields.io/badge/language-weapp-purple)
@@ -28,10 +28,10 @@
 <div align=center><img width='70%' src="https://dcdn.it120.cc/2022/05/11/3f59c7d4-f950-4151-a3f4-f91a5b20cd3a.png"/></div>
 
 
-
-> <h3 align=center>『专注时钟』是你管理每日时间、提高学习工作效率、养成自律习惯的得力助手。</h3>
 > 
-> <h4 align=center>“集每日待办、专注计时、打卡、备忘、自习、白噪声等多种实用功能于一体，助你轻松将每一天打理得井井有条，享受高效生活。”</h4>
+> <h4 align=center>『专注时钟』是你管理每日时间、提高学习工作效率、养成自律习惯的得力助手。</h4>
+> 
+> <h5 align=center>“集每日待办、专注计时、打卡、备忘、自习、白噪声等多种实用功能于一体，助你轻松将每一天打理得井井有条，享受高效生活。”</h5>
 
 ##
 
@@ -48,7 +48,7 @@
 * more ...
   
 #### 产品功能脑图（V-1.3）
-<div><img width='50%' src="https://dcdn.it120.cc/2022/04/06/bc485bbe-f6ba-43d7-b562-1093bc23f1cf.png"/></div>
+<div><img width='40%' src="https://dcdn.it120.cc/2022/04/06/bc485bbe-f6ba-43d7-b562-1093bc23f1cf.png"/></div>
 
 
 ## 🔜ToDo
@@ -80,7 +80,7 @@
 
 
 ## 📒项目信息
-* **如果该项目对您有帮助，欢迎点一个 `⭐star` & pull your requests**
+* **如果该项目对您有帮助，欢迎点一个 `⭐star` & pull your requests**，当然你也可以[**请我喝瓶哇哈哈 : )**](https://dcdn.it120.cc/2022/02/23/26a13ad7-990a-4fe1-8502-70e083f59156.png)
   
 * 你可以在项目 [Wiki](https://github.com/realyao/WXminiprogram-Focus-clock/wiki/%E5%85%B3%E4%BA%8E-%E4%B8%93%E6%B3%A8%E6%97%B6%E9%92%9F-%E4%B8%93%E6%B3%A8%E8%87%AA%E4%B9%A0%E5%AE%A4-%E7%9A%84%E9%9C%80%E6%B1%82%E6%80%9D%E8%80%83) 中查看我对该产品做的部分需求分析、原型设计和数据分析。
   
