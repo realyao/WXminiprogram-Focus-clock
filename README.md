@@ -18,17 +18,15 @@
 </p>
 
 <h5 align=center>
-导航：[<a href="#快速开始">代码部署</a>] [<a href="https://realyao.github.io/foclock/">FocusClock 主页</a>] [<a href="#部分原型设计预览">页面原型预览</a>] [<a href="https://github.com/realyao/WXminiprogram-Focus-clock/wiki">产品分析文档</a>] 
+导航：[<a href="#快速开始">代码部署</a>] [<a href="https://realyao.github.io/foclock/">FocusClock 主页</a>] [<a href="#部分原型设计预览">页面原型预览</a>] [<a href="https://github.com/realyao/WXminiprogram-Focus-clock/wiki">文档</a>] 
 </h5>
 
-<h4 align=center>这是微信小程序专注时钟的开源代码仓库，你可以在微信中搜索专注时钟，或微信扫码预览</h4>
-
+<p align=center>你可以在微信中搜索专注时钟，或微信扫码预览</p>
 
 <!-- <div align=center><img width='25%' src="https://s4.ax1x.com/2022/01/14/73a9bt.jpg"/></div> -->
-<div align=center><img width='70%' src="https://dcdn.it120.cc/2022/05/11/3f59c7d4-f950-4151-a3f4-f91a5b20cd3a.png"/></div>
+<div align=center><img width='60%' src="https://dcdn.it120.cc/2022/05/11/3f59c7d4-f950-4151-a3f4-f91a5b20cd3a.png"/></div>
 
-> 
-> 
+##
 > <h4 align=center>『专注时钟』是你管理每日时间、提高学习工作效率、养成自律习惯的得力助手。</h4>
 > 
 > <h5 align=center>“集每日待办、专注计时、打卡、备忘、自习、白噪声等多种实用功能于一体，助你轻松将每一天打理得井井有条，享受高效生活。”</h5>
@@ -66,16 +64,13 @@
 - 修改你的appid
 - 编译运行
 ```
-
 * **本微信小程序涉及基础的 JavaScript、WXML、CSS 等前端知识，以及常见的微信API和组件使用，适合新手学习入门。** 当你遇到问题时，I insist [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)。
-
 * Base [timer](https://github.com/kraaas/timer)。页面基于[WEUI](https://github.com/Tencent/weui-wxss)组件库，微信原生视觉体验，支持在`app.json`中以拓展库方式引入：
 ```json
 "useExtendedLib": {
     "weui": true
 },
 ``` 
-
 * 微信基础库：>=`2.21.0`，页面适配 iPhone6 以上所有机型。
 
 
@@ -89,8 +84,8 @@
 
 
 ## 📱部分原型设计预览
-<div align=center><img width='45%' src="https://s4.ax1x.com/2022/01/17/7UGHNq.jpg"/>
-<img width='36%' src="https://s4.ax1x.com/2022/01/17/7UGb40.jpg"/>
+<div align=center><img width='35%' src="https://s4.ax1x.com/2022/01/17/7UGHNq.jpg"/>
+<img width='28%' src="https://s4.ax1x.com/2022/01/17/7UGb40.jpg"/>
 </div>
 
 ##### 专注自习室
