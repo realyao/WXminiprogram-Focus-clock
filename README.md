@@ -42,17 +42,17 @@
 * 专注计时（cf. [番茄工作法](https://baike.baidu.com/item/%E7%95%AA%E8%8C%84%E5%B7%A5%E4%BD%9C%E6%B3%95/6353502)）
 * 待办清单（ToDo List）
 * 数据记录 图表分析
-* 生成海报分享
+* 打卡、海报
 * 白噪声背景声
 * 排行榜
 * more ...
   
 #### 产品功能脑图（V-1.3）
-<div><img width='35%' src="https://dcdn.it120.cc/2022/04/06/bc485bbe-f6ba-43d7-b562-1093bc23f1cf.png"/></div>
+<div><img width='30%' src="https://dcdn.it120.cc/2022/04/06/bc485bbe-f6ba-43d7-b562-1093bc23f1cf.png"/></div>
 
 
 ## 🔜ToDo
-- **[专注自习室](#专注自习室)（即将到来！）**
+- [专注自习室](#专注自习室)（即将到来！）
 - 语音待办（V-ToDo）
 - 接入微信推送通知
 - PC桌面端共享（Web版）
@@ -85,7 +85,7 @@
 * GPL license
 
 * **如果该项目对您有帮助，欢迎点一个 `⭐star` & pull your requests**，当然你也可以**扫码请我喝瓶哇哈哈 : )**
-<div align=center><img width='30%' src="https://dcdn.it120.cc/2022/02/23/26a13ad7-990a-4fe1-8502-70e083f59156.png"/></div>
+<div align=center><img width='40%' src="https://dcdn.it120.cc/2022/02/23/26a13ad7-990a-4fe1-8502-70e083f59156.png"/></div>
 
 
 ## 📱部分原型设计预览
