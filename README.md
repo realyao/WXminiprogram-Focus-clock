@@ -85,7 +85,7 @@
 * GPL license
 
 * **如果该项目对您有帮助，欢迎点一个 `⭐star` & pull your requests**，当然你也可以**扫码请我喝瓶哇哈哈 : )**
-<div align=center><img width='40%' src="https://dcdn.it120.cc/2022/02/23/26a13ad7-990a-4fe1-8502-70e083f59156.png"/></div>
+<div align=center><img width='45%' src="https://dcdn.it120.cc/2022/02/23/26a13ad7-990a-4fe1-8502-70e083f59156.png"/></div>
 
 
 ## 📱部分原型设计预览
