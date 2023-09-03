@@ -20,7 +20,8 @@
 </p>
 
 <h5 align=center>
-导航：[<a href="#快速开始">代码部署</a>] [<a href="#部分原型设计预览">页面原型预览</a>] [<a href="https://realyao.github.io/foclock/">主页</a>] [<a href="https://github.com/realyao/WXminiprogram-Focus-clock/wiki">文档</a>] 
+导航：[<a href="#快速开始">代码部署</a>] [<a href="#部分原型设计预览">页面原型预览</a>] [<a href="https://realyao.github.io/foclock/">主页</a>] 
+<!-- [<a href="https://github.com/realyao/WXminiprogram-Focus-clock/wiki">文档</a>]  -->
 </h5>
 
 <p align=center>你可以在微信中搜索专注时钟，或微信扫码预览</p>
@@ -47,12 +48,12 @@
 * 排行榜
 * more ...
   
-#### 产品功能脑图（V-1.3）
+#### 产品功能脑图（V-1.4）
 <div><img width='30%' src="https://dcdn.it120.cc/2022/04/06/bc485bbe-f6ba-43d7-b562-1093bc23f1cf.png"/></div>
 
 
 ## 🔜ToDo
-- [专注自习室](#专注自习室)（即将到来！）
+- [专注自习室](#专注自习室)
 - 语音待办（V-ToDo）
 - 接入微信推送通知
 - PC桌面端共享（Web版）
@@ -77,17 +78,23 @@
 
 
 ## 📒项目信息
-* 你可以在项目 [Wiki](https://github.com/realyao/WXminiprogram-Focus-clock/wiki/%E5%85%B3%E4%BA%8E-%E4%B8%93%E6%B3%A8%E6%97%B6%E9%92%9F-%E4%B8%93%E6%B3%A8%E8%87%AA%E4%B9%A0%E5%AE%A4-%E7%9A%84%E9%9C%80%E6%B1%82%E6%80%9D%E8%80%83) 中查看我对该产品做的部分需求分析、原型设计和数据分析。
-
 * [反馈社群](https://support.qq.com/product/144958)
+
+* 你可以在项目 [Wiki](https://github.com/realyao/WXminiprogram-Focus-clock/wiki/%E5%85%B3%E4%BA%8E-%E4%B8%93%E6%B3%A8%E6%97%B6%E9%92%9F-%E4%B8%93%E6%B3%A8%E8%87%AA%E4%B9%A0%E5%AE%A4-%E7%9A%84%E9%9C%80%E6%B1%82%E6%80%9D%E8%80%83) 中查看我对该产品做的部分需求分析、原型设计和数据分析。
  
 * **如果该项目对您有帮助，欢迎点一个 `⭐star` & pull your requests**，当然你也可以**扫码请我喝瓶哇哈哈 😘**
 <div align=center><img width='45%' src="https://dcdn.it120.cc/2022/02/23/26a13ad7-990a-4fe1-8502-70e083f59156.png"/></div>
 
 
 ## 📱部分原型设计预览
-<div align=center><img width='35%' src="https://s4.ax1x.com/2022/01/17/7UGHNq.jpg"/>
-<img width='28%' src="https://s4.ax1x.com/2022/01/17/7UGb40.jpg"/>
+<div align=center>
+<!-- <img width='22%' src="https://s4.ax1x.com/2022/01/17/7UGHNq.jpg"/>
+<img width='22%' src="https://s4.ax1x.com/2022/01/17/7UGb40.jpg"/> -->
+  <img width='18%' src="https://dcdn.it120.cc/2023/09/03/3a9ece75-ab6d-4a48-bdb4-cd9fb9b76726.png"/>
+  <img width='18%' src="https://dcdn.it120.cc/2023/09/03/5eec8225-9388-47f4-bc0c-41159e92cbd7.png"/>
+  <img width='18%' src="https://dcdn.it120.cc/2023/09/03/4f2eb1e4-c360-4890-ab15-eeedacc11d13.png"/>
+  <img width='18%' src="https://dcdn.it120.cc/2023/09/03/039b1a26-0cd6-45b9-8ec0-4dc0a75f8f98.jpg"/>
+  <img width='18%' src="https://dcdn.it120.cc/2023/09/03/9a82f5e3-8b15-4fbd-9796-cda6e3f5aa6a.jpg"/>
 </div>
 
 ##### 专注自习室
