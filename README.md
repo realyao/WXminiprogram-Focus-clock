@@ -68,10 +68,10 @@
 - 编译运行
 ```
 * **本微信小程序涉及基础的 JavaScript、WXML、CSS 等前端知识，以及常见的微信API和组件使用，适合新手学习入门、毕业设计课题。**
-  * 开发前应知应该会 [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)。
+  * 开发前应知应会 [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)。
   * 鸣谢：[timer](https://github.com/kraaas/timer)，页面框架基于[WEUI](https://github.com/Tencent/weui-wxss)和[VanUI](https://github.com/youzan/vant-weapp)组件库，微信原生视觉体验。
   * 微信基础库：>=`2.21.0`，页面适配 iPhone6 以上所有机型。
-* 代码问题请提[issue](https://github.com/realyao/WXminiprogram-Focus-clock/issues)给我；其他咨询请邮件 [real.yao@qq.com](mailto:real.yao@qq.com)
+* 代码问题请提[issue](https://github.com/realyao/WXminiprogram-Focus-clock/issues)；其他咨询请邮件 [real.yao@qq.com](mailto:real.yao@qq.com)
 * **如果该项目对您有帮助，欢迎点一个 `⭐star` & pull your requests**，当然你也可以**扫码请我喝瓶哇哈哈 😘**
 <div align=center><img width='45%' src="https://dcdn.it120.cc/2022/02/23/26a13ad7-990a-4fe1-8502-70e083f59156.png"/></div>
 
@@ -80,13 +80,13 @@
 <div align=center>
 <!-- <img width='22%' src="https://s4.ax1x.com/2022/01/17/7UGHNq.jpg"/>
 <img width='22%' src="https://s4.ax1x.com/2022/01/17/7UGb40.jpg"/> -->
-  <img width='10%' src="https://s21.ax1x.com/2024/11/24/pAhEQgK.png"/>
-  <img width='10%' src="https://s21.ax1x.com/2024/11/24/pAhEljO.png"/>
-  <img width='10%' src="https://s21.ax1x.com/2024/11/24/pAhEn41.png"/>
-  <img width='10%' src="https://s21.ax1x.com/2024/11/24/pAhEM36.png"/>
-  <img width='10%' src="https://s21.ax1x.com/2024/11/24/pAhEK9x.png"/>
-  <img width='10%' src="https://s21.ax1x.com/2024/11/24/pAhEYEd.png"/>
-  <img width='10%' src="https://s21.ax1x.com/2024/11/24/pAhE3uD.png"/>
+  <img width='14%' src="https://s21.ax1x.com/2024/11/24/pAhEQgK.png"/>
+  <img width='14%' src="https://s21.ax1x.com/2024/11/24/pAhEljO.png"/>
+  <img width='14%' src="https://s21.ax1x.com/2024/11/24/pAhEn41.png"/>
+  <img width='14%' src="https://s21.ax1x.com/2024/11/24/pAhEM36.png"/>
+  <img width='14%' src="https://s21.ax1x.com/2024/11/24/pAhEK9x.png"/>
+  <img width='14%' src="https://s21.ax1x.com/2024/11/24/pAhEYEd.png"/>
+  <img width='14%' src="https://s21.ax1x.com/2024/11/24/pAhE3uD.png"/>
 </div>
 
 ##### 专注自习室
