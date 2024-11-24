@@ -80,13 +80,13 @@
 <div align=center>
 <!-- <img width='22%' src="https://s4.ax1x.com/2022/01/17/7UGHNq.jpg"/>
 <img width='22%' src="https://s4.ax1x.com/2022/01/17/7UGb40.jpg"/> -->
-  <img width='14%' src="https://s21.ax1x.com/2024/11/24/pAhEQgK.png"/>
-  <img width='14%' src="https://s21.ax1x.com/2024/11/24/pAhEljO.png"/>
-  <img width='14%' src="https://s21.ax1x.com/2024/11/24/pAhEn41.png"/>
-  <img width='14%' src="https://s21.ax1x.com/2024/11/24/pAhEM36.png"/>
-  <img width='14%' src="https://s21.ax1x.com/2024/11/24/pAhEK9x.png"/>
-  <img width='14%' src="https://s21.ax1x.com/2024/11/24/pAhEYEd.png"/>
-  <img width='14%' src="https://s21.ax1x.com/2024/11/24/pAhE3uD.png"/>
+  <img width='12%' src="https://s21.ax1x.com/2024/11/24/pAhEQgK.png"/>
+  <img width='12%' src="https://s21.ax1x.com/2024/11/24/pAhEljO.png"/>
+  <img width='12%' src="https://s21.ax1x.com/2024/11/24/pAhEn41.png"/>
+  <img width='12%' src="https://s21.ax1x.com/2024/11/24/pAhEM36.png"/>
+  <img width='12%' src="https://s21.ax1x.com/2024/11/24/pAhEK9x.png"/>
+  <img width='12%' src="https://s21.ax1x.com/2024/11/24/pAhEYEd.png"/>
+  <img width='12%' src="https://s21.ax1x.com/2024/11/24/pAhE3uD.png"/>
 </div>
 
 ##### 专注自习室
