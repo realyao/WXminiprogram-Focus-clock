@@ -1,10 +1,13 @@
-<h2 align=center>微信小程序：XFocus · 专注时钟</h2>
-<h4 align=center>WXminiprogram - XFocus （更新至 V-1.2.2）</h4>
+<h2 align=center>微信小程序：专注时钟</h2>
+<h4 align=center>WXminiprogram - XFocus （更新至 V-1.3.0）</h4>
 
 <!-- <div align=center>
 ![language](https://img.shields.io/badge/language-weapp-purple)
 ![build](https://img.shields.io/badge/build-passing-brightgreen)
 ![license](https://img.shields.io/badge/license-GPL-blue)
+> <h4 align=center>『XFocus』是你管理每日时间、提高学习工作效率、养成自律习惯的得力助手。</h4>
+> 
+> <h5 align=center>“集每日待办、专注计时、打卡、备忘、自习、白噪声等多种实用功能于一体，助你轻松将每一天打理得井井有条，享受高效生活。”</h5>
 </div> -->
 
 <p align="center">
@@ -23,20 +26,21 @@
 🚀导航：[<a href="https://realyao.github.io/foclock/">主页</a>] [<a href="#快速开始">快速开始部署</a>] [<a href="#部分原型设计预览">页面原型预览</a>] [<a href="https://support.qq.com/product/144958">反馈社群</a>] [<a href="https://github.com/realyao/WXminiprogram-Focus-clock/wiki">Wiki文档</a>]
 </h4>
 
-<p align=center>你可以在微信中搜索 <b>XFocus</b>，或微信扫码预览</p>
+<p align=center>你可以在微信中搜索 <b>专注时钟</b>，或微信扫码预览</p>
 
  <!--<div align=center><img width='25%' src="https://s4.ax1x.com/2022/01/14/73a9bt.jpg"/></div> -->
  <!--<div align=center><img width='60%' src="https://dcdn.it120.cc/2022/05/11/3f59c7d4-f950-4151-a3f4-f91a5b20cd3a.png"/></div> -->
 <div align=center><img width='60%' src="https://s21.ax1x.com/2024/11/24/pAhE6Ej.png"/></div>
 
 ##
-> <h4 align=center>『XFocus』是你管理每日时间、提高学习工作效率、养成自律习惯的得力助手。</h4>
-> 
-> <h5 align=center>“集每日待办、专注计时、打卡、备忘、自习、白噪声等多种实用功能于一体，助你轻松将每一天打理得井井有条，享受高效生活。”</h5>
-
-##
 
 <div align=center><img width='80%' src="https://dcdn.it120.cc/2022/04/01/3691a1c3-9d9e-47c6-96f7-5794bbcc3924.jpg"/></div>
+
+<div align=center>
+  <img width='45%' src="https://s21.ax1x.com/2025/08/10/pVdPCQO.png"/>
+  <img width='45%' src="https://s21.ax1x.com/2025/08/10/pVdPPyD.md.png"/>
+</div>
+
 
 
 ## 🔎Features
