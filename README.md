@@ -83,17 +83,15 @@
 ## 📱部分原型设计预览
 <div align=center>
 <!-- <img width='22%' src="https://s4.ax1x.com/2022/01/17/7UGHNq.jpg"/>
-<img width='22%' src="https://s4.ax1x.com/2022/01/17/7UGb40.jpg"/> -->
+<img width='22%' src="https://s4.ax1x.com/2022/01/17/7UGb40.jpg"/>
   <img width='12%' src="https://s21.ax1x.com/2024/11/24/pAhEQgK.png"/>
   <img width='12%' src="https://s21.ax1x.com/2024/11/24/pAhEljO.png"/>
   <img width='12%' src="https://s21.ax1x.com/2024/11/24/pAhEn41.png"/>
   <img width='12%' src="https://s21.ax1x.com/2024/11/24/pAhEM36.png"/>
   <img width='12%' src="https://s21.ax1x.com/2024/11/24/pAhEK9x.png"/>
   <img width='12%' src="https://s21.ax1x.com/2024/11/24/pAhEYEd.png"/>
-  <img width='12%' src="https://s21.ax1x.com/2024/11/24/pAhE3uD.png"/>
-</div>
-
-##### 专注自习室
-<div align=center><img width='20%' src="https://dcdn.it120.cc/2022/03/27/66c757b8-acaa-41d1-b409-e3af12ef2e9c.png"/>
-<img width='20%' src="https://dcdn.it120.cc/2022/03/27/952eee7b-6e01-4285-b1c9-217d936b0c81.png"/>
+  <img width='12%' src="https://s21.ax1x.com/2024/11/24/pAhE3uD.png"/>-->
+  <img width='20%' src="https://s21.ax1x.com/2025/08/10/pVdPPyD.md.png"/>
+  <img width='15%' src="https://dcdn.it120.cc/2022/03/27/66c757b8-acaa-41d1-b409-e3af12ef2e9c.png"/>
+  <img width='15%' src="https://dcdn.it120.cc/2022/03/27/952eee7b-6e01-4285-b1c9-217d936b0c81.png"/>
 </div>
