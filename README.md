@@ -26,11 +26,10 @@
 🚀导航：[<a href="https://realyao.github.io/foclock/">主页</a>] [<a href="#快速开始">快速开始部署</a>] [<a href="#部分原型设计预览">页面原型预览</a>] [<a href="https://support.qq.com/product/144958">反馈社群</a>] [<a href="https://github.com/realyao/WXminiprogram-Focus-clock/wiki">Wiki文档</a>]
 </h4>
 
-<p align=center>你可以在微信中搜索 <b>专注时钟</b>，或微信扫码预览</p>
+<p align=center>你可以在微信中搜索 <b>习惯打卡 专注时钟</b>，或微信扫码预览</p>
 
- <!--<div align=center><img width='25%' src="https://s4.ax1x.com/2022/01/14/73a9bt.jpg"/></div> -->
- <!--<div align=center><img width='60%' src="https://dcdn.it120.cc/2022/05/11/3f59c7d4-f950-4151-a3f4-f91a5b20cd3a.png"/></div> -->
-<div align=center><img width='60%' src="https://s21.ax1x.com/2024/11/24/pAhE6Ej.png"/></div>
+ <div align=center><img width='60%' src="https://dcdn.it120.cc/2022/05/11/3f59c7d4-f950-4151-a3f4-f91a5b20cd3a.png"/></div>
+
 
 ##
 
@@ -46,8 +45,8 @@
 ## 🔎Features
 * 专注计时（cf. [番茄工作法](https://baike.baidu.com/item/%E7%95%AA%E8%8C%84%E5%B7%A5%E4%BD%9C%E6%B3%95/6353502)）
 * 待办清单（ToDo List）
+* 习惯打卡
 * 数据记录 图表分析
-* 打卡、海报
 * 白噪声背景声
 * 排行榜
 * more ...
@@ -76,7 +75,7 @@
   * 鸣谢：[timer](https://github.com/kraaas/timer)，页面框架基于[WEUI](https://github.com/Tencent/weui-wxss)和[VanUI](https://github.com/youzan/vant-weapp)组件库，微信原生视觉体验。
   * 微信基础库：>=`2.21.0`，页面适配 iPhone6 以上所有机型。
 * 代码问题请提[issue](https://github.com/realyao/WXminiprogram-Focus-clock/issues)；其他咨询请邮件 [real.yao@qq.com](mailto:real.yao@qq.com)
-* **如果该项目对您有帮助，欢迎点一个 `⭐star` & pull your requests**，当然你也可以**扫码请我喝瓶哇哈哈 😘**
+* **如果该项目对您有帮助，欢迎点一个 `⭐star`**，当然你也可以**扫码请我喝瓶哇哈哈 😘**
 <div align=center><img width='45%' src="https://dcdn.it120.cc/2022/02/23/26a13ad7-990a-4fe1-8502-70e083f59156.png"/></div>
 
 
